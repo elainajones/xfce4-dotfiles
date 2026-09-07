@@ -1,0 +1,6 @@
+show_icon=false
+icon_color_freq=true
+fontname=DejaVu Sans Mono 10
+timeout=0.5
+show_cpu=-2
+

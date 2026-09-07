@@ -1,12 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.1" encoding="UTF-8"?>
 
 <channel name="xfce4-terminal" version="1.0">
   <property name="background-mode" type="string" value="TERMINAL_BACKGROUND_TRANSPARENT"/>
-  <property name="background-darkness" type="double" value="0.71999999999999997"/>
-  <property name="color-foreground" type="string" value="#f2f2e5e5bcbc"/>
-  <property name="color-background" type="string" value="#323230302f2f"/>
-  <property name="color-cursor" type="string" value="#d65bc4cd8ca1"/>
-  <property name="color-palette" type="string" value="#323230302f2f;#cccc24241d1d;#989897971a1a;#d7d799992121;#454585858888;#b1b162628686;#68689d9d6a6a;#929283837474;#1d1d20202121;#fbfb49493434;#b8b8bbbb2626;#fafabdbd2f2f;#8383a5a59898;#d3d386869b9b;#8e8ec0c07c7c;#b9b9a6a69393"/>
+  <property name="background-darkness" type="double" value="0.75"/>
+  <property name="color-foreground" type="string" value="#ebdbb2"/>
+  <property name="color-background" type="string" value="#282828"/>
+  <property name="color-cursor" type="string" value="#ebdbb2"/>
+  <property name="color-palette" type="string" value="#282828;#cc241d;#98971a;#d79921;#458588;#b16286;#689d6a;#a89984;#928374;#fb4934;#b8bb26;#fabd2f;#83a598;#d3869b;#8ec07c;#ebdbb2"/>
+  <property name="font-name" type="string" value="DejaVu Sans Mono 16"/>
+  <property name="font-use-system" type="bool" value="false"/>
   <property name="misc-always-show-tabs" type="bool" value="false"/>
   <property name="misc-bell" type="bool" value="false"/>
   <property name="misc-bell-urgent" type="bool" value="false"/>
@@ -16,7 +18,7 @@
   <property name="misc-default-geometry" type="string" value="80x24"/>
   <property name="misc-inherit-geometry" type="bool" value="false"/>
   <property name="misc-menubar-default" type="bool" value="true"/>
-  <property name="misc-mouse-autohide" type="bool" value="false"/>
+  <property name="misc-mouse-autohide" type="bool" value="true"/>
   <property name="misc-mouse-wheel-zoom" type="bool" value="true"/>
   <property name="misc-toolbar-default" type="bool" value="false"/>
   <property name="misc-confirm-close" type="bool" value="true"/>
@@ -30,9 +32,20 @@
   <property name="misc-show-relaunch-dialog" type="bool" value="true"/>
   <property name="misc-rewrap-on-resize" type="bool" value="true"/>
   <property name="misc-slim-tabs" type="bool" value="false"/>
-  <property name="misc-new-tab-adjacent" type="bool" value="false"/>
+  <property name="misc-new-tab-adjacent" type="bool" value="true"/>
   <property name="misc-search-dialog-opacity" type="uint" value="100"/>
   <property name="misc-show-unsafe-paste-dialog" type="bool" value="true"/>
   <property name="misc-right-click-action" type="string" value="TERMINAL_RIGHT_CLICK_ACTION_CONTEXT_MENU"/>
   <property name="scrolling-unlimited" type="bool" value="true"/>
+  <property name="color-background-vary" type="bool" value="false"/>
+  <property name="color-cursor-foreground" type="string" value=""/>
+  <property name="color-cursor-use-default" type="bool" value="true"/>
+  <property name="color-selection" type="string" value=""/>
+  <property name="color-selection-background" type="string" value=""/>
+  <property name="color-selection-use-default" type="bool" value="true"/>
+  <property name="color-bold" type="string" value=""/>
+  <property name="color-bold-use-default" type="bool" value="true"/>
+  <property name="color-bold-is-bright" type="bool" value="true"/>
+  <property name="color-use-theme" type="bool" value="false"/>
+  <property name="tab-activity-color" type="string" value="#aa0000"/>
 </channel>

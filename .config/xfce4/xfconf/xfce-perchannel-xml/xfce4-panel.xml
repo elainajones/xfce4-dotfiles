@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.1" encoding="UTF-8"?>
 
 <channel name="xfce4-panel" version="1.0">
   <property name="configver" type="int" value="2"/>
@@ -8,141 +8,109 @@
     <property name="dark-mode" type="bool" value="true"/>
     <property name="panel-1" type="empty">
       <property name="position" type="string" value="p=6;x=0;y=0"/>
-      <property name="length" type="uint" value="100"/>
+      <property name="length" type="double" value="100"/>
       <property name="position-locked" type="bool" value="true"/>
       <property name="icon-size" type="uint" value="0"/>
-      <property name="size" type="uint" value="28"/>
+      <property name="size" type="uint" value="32"/>
       <property name="plugin-ids" type="array">
         <value type="int" value="1"/>
-        <value type="int" value="23"/>
+        <value type="int" value="10"/>
         <value type="int" value="2"/>
-        <value type="int" value="19"/>
+        <value type="int" value="3"/>
         <value type="int" value="4"/>
         <value type="int" value="5"/>
+        <value type="int" value="29"/>
+        <value type="int" value="26"/>
         <value type="int" value="6"/>
-        <value type="int" value="8"/>
-        <value type="int" value="10"/>
-        <value type="int" value="11"/>
+        <value type="int" value="9"/>
         <value type="int" value="12"/>
-        <value type="int" value="13"/>
+        <value type="int" value="8"/>
+        <value type="int" value="11"/>
         <value type="int" value="14"/>
-        <value type="int" value="24"/>
+        <value type="int" value="13"/>
       </property>
+      <property name="background-style" type="uint" value="2"/>
+      <property name="length-adjust" type="bool" value="false"/>
+      <property name="enter-opacity" type="uint" value="100"/>
+      <property name="leave-opacity" type="uint" value="100"/>
+      <property name="mode" type="uint" value="0"/>
+      <property name="nrows" type="uint" value="1"/>
+      <property name="span-monitors" type="bool" value="false"/>
+      <property name="output-name" type="string" value="Primary"/>
+      <property name="enable-struts" type="bool" value="true"/>
     </property>
     <property name="panel-2" type="empty">
       <property name="autohide-behavior" type="uint" value="1"/>
-      <property name="position" type="string" value="p=8;x=960;y=1055"/>
-      <property name="length" type="uint" value="100"/>
+      <property name="position" type="string" value="p=12;x=1192;y=1175"/>
+      <property name="length" type="double" value="100"/>
       <property name="position-locked" type="bool" value="true"/>
-      <property name="size" type="uint" value="48"/>
+      <property name="size" type="uint" value="52"/>
       <property name="plugin-ids" type="array">
         <value type="int" value="15"/>
+        <value type="int" value="20"/>
+        <value type="int" value="30"/>
         <value type="int" value="16"/>
         <value type="int" value="17"/>
-        <value type="int" value="20"/>
-        <value type="int" value="7"/>
-        <value type="int" value="21"/>
-        <value type="int" value="18"/>
-        <value type="int" value="3"/>
-        <value type="int" value="9"/>
-        <value type="int" value="26"/>
-        <value type="int" value="28"/>
         <value type="int" value="27"/>
+        <value type="int" value="21"/>
+        <value type="int" value="19"/>
+        <value type="int" value="7"/>
+        <value type="int" value="31"/>
+        <value type="int" value="32"/>
+        <value type="int" value="33"/>
+        <value type="int" value="23"/>
+        <value type="int" value="18"/>
+        <value type="int" value="22"/>
+        <value type="int" value="28"/>
+        <value type="int" value="25"/>
+        <value type="int" value="24"/>
       </property>
+      <property name="length-adjust" type="bool" value="true"/>
+      <property name="nrows" type="uint" value="1"/>
+      <property name="span-monitors" type="bool" value="false"/>
+      <property name="output-name" type="string" value="Primary"/>
+      <property name="enable-struts" type="bool" value="false"/>
     </property>
   </property>
   <property name="plugins" type="empty">
-    <property name="plugin-1" type="string" value="applicationsmenu"/>
+    <property name="plugin-1" type="string" value="applicationsmenu">
+      <property name="show-button-title" type="bool" value="true"/>
+      <property name="show-menu-icons" type="bool" value="true"/>
+      <property name="show-generic-names" type="bool" value="false"/>
+      <property name="show-tooltips" type="bool" value="true"/>
+      <property name="custom-menu" type="bool" value="false"/>
+    </property>
     <property name="plugin-2" type="string" value="tasklist">
       <property name="grouping" type="uint" value="1"/>
-      <property name="show-handle" type="bool" value="false"/>
-      <property name="middle-click" type="uint" value="1"/>
-      <property name="flat-buttons" type="bool" value="true"/>
       <property name="show-labels" type="bool" value="true"/>
+      <property name="show-handle" type="bool" value="false"/>
+      <property name="flat-buttons" type="bool" value="false"/>
+      <property name="sort-order" type="uint" value="1"/>
+      <property name="middle-click" type="uint" value="1"/>
       <property name="show-wireframes" type="bool" value="false"/>
+      <property name="show-only-minimized" type="bool" value="false"/>
+      <property name="include-all-monitors" type="bool" value="true"/>
+      <property name="window-scrolling" type="bool" value="false"/>
+    </property>
+    <property name="plugin-3" type="string" value="separator">
+      <property name="expand" type="bool" value="true"/>
+      <property name="style" type="uint" value="0"/>
     </property>
     <property name="plugin-4" type="string" value="pager"/>
     <property name="plugin-5" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
     </property>
-    <property name="plugin-6" type="string" value="systray">
-      <property name="square-icons" type="bool" value="true"/>
-      <property name="known-legacy-items" type="array">
-        <value type="string" value="wi-fi network connection “the new frog zone” active: the new frog zone (63%)"/>
-        <value type="string" value="user authentication required for wi-fi network “unitawifi”…"/>
-        <value type="string" value="wi-fi network connection “always ready” active: always ready (38%)"/>
-        <value type="string" value="configuring wi-fi network connection “unitawifi”…"/>
-        <value type="string" value="configuring wi-fi network connection “always ready”…"/>
-        <value type="string" value="requesting an ethernet network address for “wired connection 1”…"/>
-        <value type="string" value="ethernet network connection “wired connection 1” active"/>
-        <value type="string" value="requesting a wi-fi network address for “always ready”…"/>
-        <value type="string" value="steam"/>
-        <value type="string" value="wi-fi network connection “always ready” active: always ready (65%)"/>
-        <value type="string" value="wi-fi network connection “always ready” active: always ready (79%)"/>
-        <value type="string" value="wi-fi network connection “always ready” active: always ready (80%)"/>
-        <value type="string" value="wi-fi network connection “always ready” active: always ready (82%)"/>
-        <value type="string" value="wi-fi network connection “always ready” active: always ready (85%)"/>
-        <value type="string" value="wi-fi network connection “always ready” active: always ready (83%)"/>
-        <value type="string" value="wi-fi network connection “always ready” active: always ready (67%)"/>
-        <value type="string" value="wi-fi network connection “always ready” active: always ready (66%)"/>
-        <value type="string" value="wi-fi network connection “always ready” active: always ready (75%)"/>
-        <value type="string" value="wi-fi network connection “always ready” active: always ready (74%)"/>
-        <value type="string" value="wi-fi network connection “always ready” active: always ready (73%)"/>
-        <value type="string" value="wi-fi network connection “always ready” active: always ready (71%)"/>
-        <value type="string" value="wi-fi network connection “always ready” active: always ready (76%)"/>
-        <value type="string" value="wi-fi network connection “always ready” active: always ready (81%)"/>
-        <value type="string" value="wi-fi network connection “always ready” active: always ready (72%)"/>
-        <value type="string" value="discord"/>
-        <value type="string" value="networkmanager applet"/>
-        <value type="string" value="wi-fi network connection “always ready 3” active: always ready (76%)"/>
-        <value type="string" value="wi-fi network connection “always ready 3” active: always ready (75%)"/>
-        <value type="string" value="wi-fi network connection “always ready 3” active: always ready (69%)"/>
-        <value type="string" value="wi-fi network connection “always ready 3” active: always ready (79%)"/>
-        <value type="string" value="wi-fi network connection “always ready 3” active: always ready (73%)"/>
-        <value type="string" value="tutanota-desktop"/>
-        <value type="string" value="wi-fi network connection “always ready 3” active: always ready (70%)"/>
-        <value type="string" value="wi-fi network connection “always ready 3” active: always ready (71%)"/>
-        <value type="string" value="wi-fi network connection “always ready 3” active: always ready (72%)"/>
-        <value type="string" value="wi-fi network connection “always ready 3” active: always ready (77%)"/>
-        <value type="string" value="wi-fi network connection “always ready 3” active: always ready (66%)"/>
-        <value type="string" value="wi-fi network connection “always ready 3” active: always ready (67%)"/>
-        <value type="string" value="wi-fi network connection “always ready 3” active: always ready (74%)"/>
-        <value type="string" value="wi-fi network connection “always ready 3” active: always ready (68%)"/>
-        <value type="string" value="wi-fi network connection “always ready 3” active: always ready (78%)"/>
-        <value type="string" value="configuring wi-fi network connection “always ready 2”…"/>
-        <value type="string" value="thunar"/>
-        <value type="string" value="wi-fi network connection “always ready 2” active: always ready (71%)"/>
-        <value type="string" value="no network connection"/>
-        <value type="string" value="wi-fi network connection “always ready” active: always ready (68%)"/>
-        <value type="string" value="wi-fi network connection “always ready” active: always ready (78%)"/>
-        <value type="string" value="wi-fi network connection “always ready” active: always ready (77%)"/>
-        <value type="string" value="wi-fi network connection “always ready” active: always ready (70%)"/>
-        <value type="string" value="wi-fi network connection “always ready” active: always ready (69%)"/>
-        <value type="string" value="networking disabled"/>
-      </property>
-      <property name="known-items" type="array">
-        <value type="string" value="org.nicotine_plus.Nicotine"/>
-        <value type="string" value="vrmonitor"/>
-        <value type="string" value="chrome_status_icon_1"/>
-        <value type="string" value="steam"/>
-        <value type="string" value="vlc"/>
-      </property>
-    </property>
-    <property name="plugin-8" type="string" value="pulseaudio">
-      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
-      <property name="show-notifications" type="bool" value="true"/>
-      <property name="mpris-players" type="string" value="firefox.instance10356;firefox.instance10477;firefox.instance10775;firefox.instance10968;firefox.instance10982;firefox.instance11226;firefox.instance11483;firefox.instance11510;firefox.instance11761;firefox.instance11846;firefox.instance11854;firefox.instance11996;firefox.instance12060;firefox.instance12065;firefox.instance12194;firefox.instance1228;firefox.instance12298;firefox.instance12522;firefox.instance12697;firefox.instance12873;firefox.instance13870;firefox.instance13909;firefox.instance14116;firefox.instance14513;firefox.instance14925;firefox.instance1499;firefox.instance15080;firefox.instance15454;firefox.instance15780;firefox.instance1670;firefox.instance17270;firefox.instance17387;firefox.instance17419;firefox.instance18042;firefox.instance18327;firefox.instance18480;firefox.instance18575;firefox.instance1877;firefox.instance18913;firefox.instance19788;firefox.instance19950;firefox.instance20264;firefox.instance21538;firefox.instance22187;firefox.instance23643;firefox.instance23720;firefox.instance24016;firefox.instance24254;firefox.instance24541;firefox.instance25103;firefox.instance25371;firefox.instance25858;firefox.instance25963;firefox.instance2607;firefox.instance26107;firefox.instance26978;firefox.instance27578;firefox.instance27706;firefox.instance28158;firefox.instance28349;firefox.instance2838;firefox.instance28594;firefox.instance30237;firefox.instance30296;firefox.instance30313;firefox.instance30507;firefox.instance30884;firefox.instance31005;firefox.instance31612;firefox.instance31891;firefox.instance32206;firefox.instance32319;firefox.instance3899;firefox.instance3941;firefox.instance3952;firefox.instance3960;firefox.instance3977;firefox.instance3983;firefox.instance3996;firefox.instance4001;firefox.instance4016;firefox.instance4030;firefox.instance4055;firefox.instance4061;firefox.instance4065;firefox.instance4066;firefox.instance4069;firefox.instance4079;firefox.instance4090;firefox.instance4091;firefox.instance4103;firefox.instance4117;firefox.instance4120;firefox.instance4126;firefox.instance4133;firefox.instance4148;firefox.instance4161;firefox.instance4165;firefox.instance4168;firefox.instance4173;firefox.instance4177;firefox.instance4187;firefox.instance4193;firefox.instance4200;firefox.instance4201;firefox.instance4205;firefox.instance4208;firefox.instance4214;firefox.instance4216;firefox.instance4219;firefox.instance4231;firefox.instance4233;firefox.instance4249;firefox.instance4270;firefox.instance4277;firefox.instance4301;firefox.instance4310;firefox.instance4311;firefox.instance4365;firefox.instance4374;firefox.instance4396;firefox.instance4397;firefox.instance4405;firefox.instance4408;firefox.instance4422;firefox.instance4426;firefox.instance4450;firefox.instance4464;firefox.instance4480;firefox.instance4521;firefox.instance4531;firefox.instance4542;firefox.instance4552;firefox.instance4579;firefox.instance4595;firefox.instance4608;firefox.instance4641;firefox.instance4662;firefox.instance4683;firefox.instance4684;firefox.instance4696;firefox.instance4703;firefox.instance4710;firefox.instance4752;firefox.instance4755;firefox.instance4831;firefox.instance4872;firefox.instance4894;firefox.instance4898;firefox.instance4916;firefox.instance4963;firefox.instance4979;firefox.instance5003;firefox.instance5006;firefox.instance5072;firefox.instance5143;firefox.instance5164;firefox.instance5172;firefox.instance5203;firefox.instance5210;firefox.instance5214;firefox.instance5250;firefox.instance5251;firefox.instance5295;firefox.instance5309;firefox.instance5313;firefox.instance5334;firefox.instance5377;firefox.instance5378;firefox.instance5381;firefox.instance5433;firefox.instance550;firefox.instance5506;firefox.instance5537;firefox.instance5621;firefox.instance5650;firefox.instance5741;firefox.instance5797;firefox.instance5840;firefox.instance5848;firefox.instance5933;firefox.instance6068;firefox.instance6110;firefox.instance6239;firefox.instance6245;firefox.instance6287;firefox.instance6299;firefox.instance6494;firefox.instance6506;firefox.instance6604;firefox.instance6712;firefox.instance6740;firefox.instance6795;firefox.instance6985;firefox.instance7009;firefox.instance7068;firefox.instance7225;firefox.instance7294;firefox.instance7366;firefox.instance7498;firefox.instance7749;firefox.instance7820;firefox.instance7906;firefox.instance8000;firefox.instance8106;firefox.instance8119;firefox.instance8420;firefox.instance8440;firefox.instance8453;firefox.instance8551;firefox.instance8556;firefox.instance8599;firefox.instance8678;firefox.instance8759;firefox.instance8816;firefox.instance8889;firefox.instance9018;firefox.instance9124;firefox.instance9188;firefox.instance9465;firefox.instance9512;firefox.instance9585;firefox.instance9855;vlc"/>
-      <property name="known-players" type="string" value="firefox;Mozilla Firefox;VLC media player"/>
-    </property>
-    <property name="plugin-10" type="string" value="notification-plugin"/>
     <property name="plugin-11" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
     </property>
     <property name="plugin-12" type="string" value="clock">
-      <property name="digital-layout" type="uint" value="3"/>
-      <property name="digital-time-font" type="string" value="DejaVu Sans Mono 10"/>
-      <property name="digital-time-format" type="string" value="%H:%M:%S"/>
+      <property name="timezone" type="string" value="US/Pacific"/>
+      <property name="tooltip-format" type="string" value="%F%n%j/365"/>
+      <property name="digital-format" type="string" value="%k:%M:%S"/>
       <property name="mode" type="uint" value="2"/>
+      <property name="digital-time-format" type="string" value="%k:%M:%S"/>
+      <property name="digital-layout" type="uint" value="3"/>
+      <property name="digital-time-font" type="string" value="DejaVu Sans Mono 12"/>
     </property>
     <property name="plugin-13" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
@@ -163,63 +131,635 @@
         <value type="string" value="+logout-dialog"/>
       </property>
       <property name="button-title" type="uint" value="1"/>
+      <property name="custom-title" type="string" value="Session Menu"/>
       <property name="appearance" type="uint" value="1"/>
     </property>
     <property name="plugin-15" type="string" value="showdesktop"/>
     <property name="plugin-16" type="string" value="separator"/>
     <property name="plugin-17" type="string" value="launcher">
       <property name="items" type="array">
-        <value type="string" value="16665593511.desktop"/>
+        <value type="string" value="16423695731.desktop"/>
       </property>
     </property>
-    <property name="plugin-18" type="string" value="launcher">
+    <property name="plugin-21" type="string" value="separator"/>
+    <property name="plugin-6" type="string" value="battery"/>
+    <property name="plugin-26" type="string" value="systray">
+      <property name="known-legacy-items" type="array">
+        <value type="string" value="wi-fi network connection “mocha-home” active: mocha-home (97%)"/>
+        <value type="string" value="requesting a wi-fi network address for “mocha-home”…"/>
+        <value type="string" value="wi-fi network connection “mocha-home” active: mocha-home (93%)"/>
+        <value type="string" value="wi-fi network connection “mocha-home” active: mocha-home (74%)"/>
+        <value type="string" value="wi-fi network connection “mocha-home” active: mocha-home (75%)"/>
+        <value type="string" value="wi-fi network connection “mocha-home” active: mocha-home (88%)"/>
+        <value type="string" value="blueman-tray"/>
+        <value type="string" value="wi-fi network connection “mocha-home” active: mocha-home (76%)"/>
+        <value type="string" value="wi-fi network connection “mocha-home-5g” active: mocha-home-5g (77%)"/>
+        <value type="string" value="wi-fi network connection “mocha-home-5g” active: mocha-home-5g (67%)"/>
+        <value type="string" value="wi-fi network connection “mocha-home” active: mocha-home (96%)"/>
+        <value type="string" value="wi-fi network connection “mocha-home-5g” active: mocha-home-5g (90%)"/>
+        <value type="string" value="wi-fi network connection “mocha-home-5g” active: mocha-home-5g (86%)"/>
+        <value type="string" value="wi-fi network connection “mocha-home-5g” active: mocha-home-5g (84%)"/>
+        <value type="string" value="wi-fi network connection “mocha-home-5g” active: mocha-home-5g (91%)"/>
+        <value type="string" value="wi-fi network connection “mocha-home-5g” active: mocha-home-5g (88%)"/>
+        <value type="string" value="wi-fi network connection “mocha-home-5g” active: mocha-home-5g (87%)"/>
+        <value type="string" value="wi-fi network connection “mocha-home-5g” active: mocha-home-5g (73%)"/>
+        <value type="string" value="wi-fi network connection “mocha-home-5g” active: mocha-home-5g (70%)"/>
+        <value type="string" value="wi-fi network connection “mocha-home-5g” active: mocha-home-5g (89%)"/>
+        <value type="string" value="wi-fi network connection “mocha-home-5g” active: mocha-home-5g (85%)"/>
+        <value type="string" value="notification-daemon"/>
+        <value type="string" value="wi-fi network connection “mocha-home-5g” active: mocha-home-5g (92%)"/>
+        <value type="string" value="wi-fi network connection “mocha-home” active: mocha-home (70%)"/>
+        <value type="string" value="wi-fi network connection “mocha-home-5g” active: mocha-home-5g (95%)"/>
+        <value type="string" value="wi-fi network connection “mocha-home” active: mocha-home (100%)"/>
+        <value type="string" value="wi-fi network connection “mocha-home” active: mocha-home (95%)"/>
+        <value type="string" value="wi-fi network connection “mocha-home” active: mocha-home (71%)"/>
+        <value type="string" value="wi-fi network connection “mocha-home” active: mocha-home (82%)"/>
+        <value type="string" value="wi-fi network connection “mocha-home” active: mocha-home (92%)"/>
+        <value type="string" value="user authentication required for wi-fi network “icn-lba”…"/>
+        <value type="string" value="wi-fi network connection “mocha-home” active: mocha-home (77%)"/>
+        <value type="string" value="wi-fi network connection “mocha-home” active: mocha-home (72%)"/>
+        <value type="string" value="wi-fi network connection “mocha-home-5g” active: mocha-home-5g (57%)"/>
+        <value type="string" value="wi-fi network connection “mocha-home-5g” active: mocha-home-5g (66%)"/>
+        <value type="string" value="wi-fi network connection “insomnia coffee company 3” active: insomnia coffee company (29%)"/>
+        <value type="string" value="wi-fi network connection “mocha-home” active: mocha-home (78%)"/>
+        <value type="string" value="wi-fi network connection “mocha-home” active: mocha-home (69%)"/>
+        <value type="string" value="wi-fi network connection “mocha-home” active: mocha-home (83%)"/>
+        <value type="string" value="wi-fi network connection “mocha-home” active: mocha-home (73%)"/>
+        <value type="string" value="redshift-gtk"/>
+        <value type="string" value="wi-fi network connection “mocha-home” active: mocha-home (87%)"/>
+        <value type="string" value="wi-fi network connection “mocha-home” active: mocha-home (84%)"/>
+        <value type="string" value="wi-fi network connection “mocha-home” active: mocha-home (79%)"/>
+        <value type="string" value="wi-fi network connection “mocha-home-5g” active: mocha-home-5g (75%)"/>
+        <value type="string" value="wi-fi network connection “mocha-home-5g” active: mocha-home-5g (80%)"/>
+        <value type="string" value="wi-fi network connection “mocha-home-5g” active: mocha-home-5g (69%)"/>
+        <value type="string" value="wi-fi network connection “mocha-home-5g” active: mocha-home-5g (74%)"/>
+        <value type="string" value="wi-fi network connection “mocha-home” active: mocha-home (81%)"/>
+        <value type="string" value="wi-fi network connection “mocha-home” active: mocha-home (86%)"/>
+        <value type="string" value="wi-fi network connection “mocha-home-5g” active: mocha-home-5g (68%)"/>
+        <value type="string" value="wi-fi network connection “mocha-home-5g” active: mocha-home-5g (83%)"/>
+        <value type="string" value="wi-fi network connection “mocha-home-5g” active: mocha-home-5g (72%)"/>
+        <value type="string" value="wi-fi network connection “mocha-home-5g” active: mocha-home-5g (76%)"/>
+        <value type="string" value="wi-fi network connection “mocha-home-5g” active: mocha-home-5g (79%)"/>
+        <value type="string" value="wi-fi network connection “mocha-home-5g” active: mocha-home-5g (63%)"/>
+        <value type="string" value="wi-fi network connection “mocha-home” active: mocha-home (85%)"/>
+        <value type="string" value="wi-fi network connection “mocha-home-5g” active: mocha-home-5g (81%)"/>
+        <value type="string" value="wi-fi network connection “mocha-home” active: mocha-home (80%)"/>
+        <value type="string" value="wi-fi network connection “mocha-home-5g” active: mocha-home-5g (71%)"/>
+        <value type="string" value="wi-fi network connection “frontier0912 1” active: frontier0912 (81%)"/>
+        <value type="string" value="wi-fi network connection “frontier0912 1” active: frontier0912 (61%)"/>
+        <value type="string" value="wi-fi network connection “frontier0912 1” active: frontier0912 (53%)"/>
+        <value type="string" value="wi-fi network connection “frontier0912 1” active: frontier0912 (50%)"/>
+        <value type="string" value="wi-fi network connection “frontier0912 1” active: frontier0912 (83%)"/>
+        <value type="string" value="wi-fi network connection “frontier0912 1” active: frontier0912 (80%)"/>
+        <value type="string" value="wi-fi network connection “frontier0912 1” active: frontier0912 (58%)"/>
+        <value type="string" value="wi-fi network connection “frontier0912 1” active: frontier0912 (66%)"/>
+        <value type="string" value="wi-fi network connection “frontier0912 1” active: frontier0912 (64%)"/>
+        <value type="string" value="wi-fi network connection “frontier0912 1” active: frontier0912 (78%)"/>
+        <value type="string" value="wi-fi network connection “frontier0912 1” active: frontier0912 (55%)"/>
+        <value type="string" value="wi-fi network connection “frontier0912 1” active: frontier0912 (79%)"/>
+        <value type="string" value="wi-fi network connection “frontier0912 1” active: frontier0912 (77%)"/>
+        <value type="string" value="wi-fi network connection “frontier0912 1” active: frontier0912 (76%)"/>
+        <value type="string" value="wi-fi network connection “mocha_home” active: mocha_home (69%)"/>
+        <value type="string" value="wi-fi network connection “mocha_home_2” active: mocha_home_2 (71%)"/>
+        <value type="string" value="wi-fi network connection “mocha_home_2” active: mocha_home_2 (70%)"/>
+        <value type="string" value="wi-fi network connection “frontier0912 1” active: frontier0912 (59%)"/>
+        <value type="string" value="wi-fi network connection “frontier0912 1” active: frontier0912 (69%)"/>
+        <value type="string" value="wi-fi network connection “frontier0912 1” active: frontier0912 (67%)"/>
+        <value type="string" value="wi-fi network connection “bfw 1” active: bfw (73%)"/>
+        <value type="string" value="wi-fi network connection “frontier0912 1” active: frontier0912 (75%)"/>
+        <value type="string" value="wi-fi network connection “bfw 1” active: bfw (84%)"/>
+        <value type="string" value="wi-fi network connection “frontier0912 1” active: frontier0912 (56%)"/>
+        <value type="string" value="wi-fi network connection “frontier0912 1” active: frontier0912 (88%)"/>
+        <value type="string" value="wi-fi network connection “frontier0912 1” active: frontier0912 (93%)"/>
+        <value type="string" value="wi-fi network connection “frontier0912 1” active: frontier0912 (86%)"/>
+        <value type="string" value="wi-fi network connection “frontier0912 1” active: frontier0912 (72%)"/>
+        <value type="string" value="wi-fi network connection “frontier0912 1” active: frontier0912 (73%)"/>
+        <value type="string" value="wi-fi network connection “frontier0912 1” active: frontier0912 (63%)"/>
+        <value type="string" value="wi-fi network connection “frontier0912 1” active: frontier0912 (62%)"/>
+        <value type="string" value="wi-fi network connection “frontier0912 1” active: frontier0912 (71%)"/>
+        <value type="string" value="wi-fi network connection “frontier0912 1” active: frontier0912 (57%)"/>
+        <value type="string" value="wi-fi network connection “frontier0912 1” active: frontier0912 (65%)"/>
+        <value type="string" value="wi-fi network connection “frontier0912 1” active: frontier0912 (68%)"/>
+        <value type="string" value="wi-fi network connection “frontier0912 1” active: frontier0912 (70%)"/>
+        <value type="string" value="wi-fi network connection “frontier0912 1” active: frontier0912 (52%)"/>
+        <value type="string" value="wi-fi network connection “frontier0912 1” active: frontier0912 (74%)"/>
+        <value type="string" value="wi-fi network connection “the 5ghz frog zone” active: the 5ghz frog zone (75%)"/>
+        <value type="string" value="wi-fi network connection “the 5ghz frog zone” active: the 5ghz frog zone (69%)"/>
+        <value type="string" value="wi-fi network connection “booster” active: booster (74%)"/>
+        <value type="string" value="wi-fi network connection “booster” active: booster (75%)"/>
+        <value type="string" value="wi-fi network connection “booster” active: booster (69%)"/>
+        <value type="string" value="wi-fi network connection “booster” active: booster (56%)"/>
+        <value type="string" value="wi-fi network connection “bfw 1” active: bfw (83%)"/>
+        <value type="string" value="wi-fi network connection “insomnia coffee company 4” active: insomnia coffee company (56%)"/>
+        <value type="string" value="wi-fi network connection “booster” active: booster (82%)"/>
+        <value type="string" value="wi-fi network connection “booster” active: booster (84%)"/>
+        <value type="string" value="wi-fi network connection “booster” active: booster (81%)"/>
+        <value type="string" value="wi-fi network connection “booster” active: booster (73%)"/>
+        <value type="string" value="wi-fi network connection “booster” active: booster (94%)"/>
+        <value type="string" value="wi-fi network connection “booster” active: booster (89%)"/>
+        <value type="string" value="wi-fi network connection “booster” active: booster (85%)"/>
+        <value type="string" value="wi-fi network connection “insomnia coffee company 4” active: insomnia coffee company (63%)"/>
+        <value type="string" value="wi-fi network connection “booster” active: booster (86%)"/>
+        <value type="string" value="wi-fi network connection “booster” active: booster (66%)"/>
+        <value type="string" value="wi-fi network connection “booster” active: booster (71%)"/>
+        <value type="string" value="wi-fi network connection “booster” active: booster (65%)"/>
+        <value type="string" value="wi-fi network connection “booster” active: booster (76%)"/>
+        <value type="string" value="wi-fi network connection “booster” active: booster (58%)"/>
+        <value type="string" value="wi-fi network connection “booster” active: booster (59%)"/>
+        <value type="string" value="wi-fi network connection “booster” active: booster (61%)"/>
+        <value type="string" value="wi-fi network connection “booster” active: booster (67%)"/>
+        <value type="string" value="wi-fi network connection “booster” active: booster (49%)"/>
+        <value type="string" value="remmina"/>
+        <value type="string" value="wi-fi network connection “bfw 1” active: bfw (78%)"/>
+        <value type="string" value="wi-fi network connection “bfw 1” active: bfw (80%)"/>
+        <value type="string" value="wi-fi network connection “bfw 1” active: bfw (85%)"/>
+        <value type="string" value="wi-fi network connection “bfw 1” active: bfw (81%)"/>
+        <value type="string" value="wi-fi network connection “bfw 1” active: bfw (77%)"/>
+        <value type="string" value="wi-fi network connection “booster” active: booster (77%)"/>
+        <value type="string" value="wi-fi network connection “booster” active: booster (93%)"/>
+        <value type="string" value="wi-fi network connection “booster” active: booster (68%)"/>
+        <value type="string" value="wi-fi network connection “booster” active: booster (63%)"/>
+        <value type="string" value="wi-fi network connection “booster” active: booster (88%)"/>
+        <value type="string" value="wi-fi network connection “lanmine_5ghz_1” active: lanmine_5ghz_1 (65%)"/>
+        <value type="string" value="wi-fi network connection “lanmine” active: lanmine (78%)"/>
+        <value type="string" value="wi-fi network connection “lanmine_5ghz_0” active: lanmine_5ghz_0 (78%)"/>
+        <value type="string" value="wi-fi network connection “brent house” active: brent house (67%)"/>
+        <value type="string" value="wi-fi network connection “brent house” active: brent house (62%)"/>
+        <value type="string" value="wi-fi network connection “lanmine_5g” active: lanmine_5g (94%)"/>
+        <value type="string" value="wi-fi network connection “insomnia coffee company 3” active: insomnia coffee company (77%)"/>
+        <value type="string" value="configuring wi-fi network connection “brent house”…"/>
+        <value type="string" value="wi-fi network connection “lanmine_5g” active: lanmine_5g (89%)"/>
+        <value type="string" value="wi-fi network connection “lanmine_5g” active: lanmine_5g (76%)"/>
+        <value type="string" value="wi-fi network connection “lanmine_5g” active: lanmine_5g (85%)"/>
+        <value type="string" value="wi-fi network connection “lanmine_5g” active: lanmine_5g (68%)"/>
+        <value type="string" value="wi-fi network connection “lanmine_5g” active: lanmine_5g (66%)"/>
+        <value type="string" value="wi-fi network connection “lanmine_5g” active: lanmine_5g (84%)"/>
+        <value type="string" value="wi-fi network connection “lanmine_5g” active: lanmine_5g (67%)"/>
+        <value type="string" value="wi-fi network connection “lanmine_5g” active: lanmine_5g (82%)"/>
+        <value type="string" value="wi-fi network connection “lanmine_5g” active: lanmine_5g (80%)"/>
+        <value type="string" value="wi-fi network connection “lanmine” active: lanmine (94%)"/>
+        <value type="string" value="wi-fi network connection “lanmine” active: lanmine (83%)"/>
+        <value type="string" value="wi-fi network connection “always ready 2” active: always ready (92%)"/>
+        <value type="string" value="wi-fi network connection “always ready 2” active: always ready (99%)"/>
+        <value type="string" value="wi-fi network connection “always ready 2” active: always ready (82%)"/>
+        <value type="string" value="wi-fi network connection “insomnia coffee company 4” active: insomnia coffee company (36%)"/>
+        <value type="string" value="mobile broadband connection “us mobile us mobile” active: (19%)"/>
+        <value type="string" value="wi-fi network connection “always ready 2” active: always ready (86%)"/>
+        <value type="string" value="wi-fi network connection “always ready 2” active: always ready (84%)"/>
+        <value type="string" value="wi-fi network connection “always ready 2” active: always ready (89%)"/>
+        <value type="string" value="wi-fi network connection “always ready 2” active: always ready (90%)"/>
+        <value type="string" value="wi-fi network connection “always ready 2” active: always ready (76%)"/>
+        <value type="string" value="wi-fi network connection “always ready 2” active: always ready (91%)"/>
+        <value type="string" value="wi-fi network connection “always ready 2” active: always ready (85%)"/>
+        <value type="string" value="wi-fi network connection “always ready 2” active: always ready (69%)"/>
+        <value type="string" value="wi-fi network connection “always ready 2” active: always ready (87%)"/>
+        <value type="string" value="wi-fi network connection “always ready 2” active: always ready (83%)"/>
+        <value type="string" value="wi-fi network connection “always ready 2” active: always ready (77%)"/>
+        <value type="string" value="wi-fi network connection “always ready 2” active: always ready (88%)"/>
+        <value type="string" value="wi-fi network connection “always ready 2” active: always ready (80%)"/>
+        <value type="string" value="wi-fi network connection “always ready 2” active: always ready (75%)"/>
+        <value type="string" value="wi-fi network connection “lg_speaker_s80qy_5244.l078,” active: lg_speaker_s80qy_5244.l078, (47%)"/>
+        <value type="string" value="wi-fi network connection “always ready 2” active: always ready (72%)"/>
+        <value type="string" value="wi-fi network connection “always ready 2” active: always ready (67%)"/>
+        <value type="string" value="wi-fi network connection “always ready 2” active: always ready (73%)"/>
+        <value type="string" value="wi-fi network connection “always ready 2” active: always ready (79%)"/>
+        <value type="string" value="wi-fi network connection “always ready 2” active: always ready (71%)"/>
+        <value type="string" value="wi-fi network connection “always ready 2” active: always ready (81%)"/>
+        <value type="string" value="wi-fi network connection “always ready 2” active: always ready (65%)"/>
+        <value type="string" value="wi-fi network connection “always ready 2” active: always ready (78%)"/>
+        <value type="string" value="wi-fi network connection “always ready 2” active: always ready (74%)"/>
+        <value type="string" value="wi-fi network connection “always ready 2” active: always ready (70%)"/>
+        <value type="string" value="blueman"/>
+        <value type="string" value="wi-fi network connection “insomnia coffee company 2” active: insomnia coffee company (61%)"/>
+        <value type="string" value="wi-fi network connection “avaroasteriaguest” active: avaroasteriaguest (77%)"/>
+        <value type="string" value="wi-fi network connection “thefrogcar” active: thefrogcar (100%)"/>
+        <value type="string" value="wi-fi network connection “oxxx||=========&gt;” active: oxxx||=========&gt; (72%)"/>
+        <value type="string" value="wi-fi network connection “xfinitywifi” active: xfinitywifi (76%)"/>
+        <value type="string" value="wi-fi network connection “frontier0912” active: frontier0912 (62%)"/>
+        <value type="string" value="wi-fi network connection “xfinitywifi” active: xfinitywifi (57%)"/>
+        <value type="string" value="wi-fi network connection “frontier0912” active: frontier0912 (73%)"/>
+        <value type="string" value="wi-fi network connection “oxxx||=========&gt;” active: oxxx||=========&gt; (76%)"/>
+        <value type="string" value="wi-fi network connection “oxxx||=========&gt;” active: oxxx||=========&gt; (80%)"/>
+        <value type="string" value="wi-fi network connection “oxxx||=========&gt;” active: oxxx||=========&gt; (78%)"/>
+        <value type="string" value="wi-fi network connection “frontier0912” active: frontier0912 (75%)"/>
+        <value type="string" value="wi-fi network connection “caffe umbria public” active: caffe umbria public (67%)"/>
+        <value type="string" value="wi-fi network connection “xfinitywifi” active: xfinitywifi (60%)"/>
+        <value type="string" value="wi-fi network connection “xfinitywifi” active: xfinitywifi (75%)"/>
+        <value type="string" value="wi-fi network connection “frontier0912” active: frontier0912 (67%)"/>
+        <value type="string" value="wi-fi network connection “frontier0912” active: frontier0912 (61%)"/>
+        <value type="string" value="wi-fi network connection “frontier0912” active: frontier0912 (63%)"/>
+        <value type="string" value="wi-fi network connection “frontier0912” active: frontier0912 (68%)"/>
+        <value type="string" value="wi-fi network connection “guest” active: guest (53%)"/>
+        <value type="string" value="wi-fi network connection “pearl west 2.4g-guest” active: pearl west 2.4g-guest (59%)"/>
+        <value type="string" value="requesting an ethernet network address for “wired connection 2”…"/>
+        <value type="string" value="wi-fi network connection “frontier0912” active: frontier0912 (74%)"/>
+        <value type="string" value="wi-fi network connection “flypdx” active: flypdx (71%)"/>
+        <value type="string" value="wi-fi network connection “marriottbonvoy” active: marriottbonvoy (50%)"/>
+        <value type="string" value="wi-fi network connection “bfw” active: bfw (85%)"/>
+        <value type="string" value="wi-fi network connection “xfinitywifi” active: xfinitywifi (42%)"/>
+        <value type="string" value="wi-fi network connection “bfw” active: bfw (77%)"/>
+        <value type="string" value="wi-fi network connection “marriottbonvoy” active: marriottbonvoy (45%)"/>
+        <value type="string" value="wi-fi network connection “marriottbonvoy” active: marriottbonvoy (49%)"/>
+        <value type="string" value="wi-fi network connection “bfw” active: bfw (83%)"/>
+        <value type="string" value="wi-fi network connection “bfw” active: bfw (82%)"/>
+        <value type="string" value="wi-fi network connection “flypdx” active: flypdx (58%)"/>
+        <value type="string" value="wi-fi network connection “the new frog zone” active: the new frog zone (76%)"/>
+        <value type="string" value="wi-fi network connection “xfinitywifi” active: xfinitywifi (72%)"/>
+        <value type="string" value="wi-fi network connection “oxxx||=========&gt;” active: oxxx||=========&gt; (63%)"/>
+        <value type="string" value="wi-fi network connection “oxxx||=========&gt;” active: oxxx||=========&gt; (74%)"/>
+        <value type="string" value="wi-fi network connection “frontier0912” active: frontier0912 (58%)"/>
+        <value type="string" value="wi-fi network connection “oxxx||=========&gt;” active: oxxx||=========&gt; (68%)"/>
+        <value type="string" value="wi-fi network connection “oxxx||=========&gt;” active: oxxx||=========&gt; (61%)"/>
+        <value type="string" value="wi-fi network connection “xfinitywifi” active: xfinitywifi (62%)"/>
+        <value type="string" value="wi-fi network connection “xfinitywifi” active: xfinitywifi (59%)"/>
+        <value type="string" value="wi-fi network connection “frontier0912” active: frontier0912 (70%)"/>
+        <value type="string" value="wi-fi network connection “xfinitywifi” active: xfinitywifi (35%)"/>
+        <value type="string" value="wi-fi network connection “xfinitywifi” active: xfinitywifi (33%)"/>
+        <value type="string" value="wi-fi network connection “jellyfish” active: jellyfish (98%)"/>
+        <value type="string" value="wi-fi network connection “xfinitywifi” active: xfinitywifi (77%)"/>
+        <value type="string" value="requesting a wi-fi network address for “starbucks wifi”…"/>
+        <value type="string" value="wi-fi network connection “xfinitywifi” active: xfinitywifi (74%)"/>
+        <value type="string" value="wi-fi network connection “frontier0912” active: frontier0912 (72%)"/>
+        <value type="string" value="wi-fi network connection “frontier0912” active: frontier0912 (71%)"/>
+        <value type="string" value="wi-fi network connection “always ready 1” active: always ready (56%)"/>
+        <value type="string" value="wi-fi network connection “guest” active: guest (56%)"/>
+        <value type="string" value="wi-fi network connection “xfinitywifi” active: xfinitywifi (55%)"/>
+        <value type="string" value="wi-fi network connection “xfinitywifi” active: xfinitywifi (56%)"/>
+        <value type="string" value="wi-fi network connection “ava roasteria - guest” active: ava roasteria - guest (61%)"/>
+        <value type="string" value="wi-fi network connection “xfinitywifi” active: xfinitywifi (40%)"/>
+        <value type="string" value="wi-fi network connection “xfinitywifi” active: xfinitywifi (71%)"/>
+        <value type="string" value="wi-fi network connection “xfinitywifi” active: xfinitywifi (67%)"/>
+        <value type="string" value="wi-fi network connection “xfinitywifi” active: xfinitywifi (32%)"/>
+        <value type="string" value="wi-fi network connection “xfinitywifi” active: xfinitywifi (53%)"/>
+        <value type="string" value="wi-fi network connection “xfinitywifi” active: xfinitywifi (49%)"/>
+        <value type="string" value="wi-fi network connection “guest” active: guest (65%)"/>
+        <value type="string" value="wi-fi network connection “guest” active: guest (69%)"/>
+        <value type="string" value="wi-fi network connection “guest” active: guest (62%)"/>
+        <value type="string" value="wi-fi network connection “oxxx||=========&gt;” active: oxxx||=========&gt; (67%)"/>
+        <value type="string" value="wi-fi network connection “oxxx||=========&gt;” active: oxxx||=========&gt; (66%)"/>
+        <value type="string" value="wi-fi network connection “oxxx||=========&gt;” active: oxxx||=========&gt; (71%)"/>
+        <value type="string" value="wi-fi network connection “insomnia coffee company 1” active: insomnia coffee company (72%)"/>
+        <value type="string" value="wi-fi network connection “always ready 1” active: always ready (85%)"/>
+        <value type="string" value="wi-fi network connection “xfinitywifi” active: xfinitywifi (63%)"/>
+        <value type="string" value="wi-fi network connection “always ready 1” active: always ready (88%)"/>
+        <value type="string" value="wi-fi network connection “always ready 1” active: always ready (84%)"/>
+        <value type="string" value="wi-fi network connection “xfinitywifi” active: xfinitywifi (43%)"/>
+        <value type="string" value="configuring wi-fi network connection “xfinitywifi”…"/>
+        <value type="string" value="wi-fi network connection “oxxx||=========&gt;” active: oxxx||=========&gt; (73%)"/>
+        <value type="string" value="wi-fi network connection “oxxx||=========&gt;” active: oxxx||=========&gt; (70%)"/>
+        <value type="string" value="wi-fi network connection “xfinitywifi” active: xfinitywifi (70%)"/>
+        <value type="string" value="wi-fi network connection “xfinitywifi” active: xfinitywifi (61%)"/>
+        <value type="string" value="wi-fi network connection “always ready 1” active: always ready (86%)"/>
+        <value type="string" value="wi-fi network connection “always ready 1” active: always ready (79%)"/>
+        <value type="string" value="wi-fi network connection “insomnia coffee company 1” active: insomnia coffee company (81%)"/>
+        <value type="string" value="wi-fi network connection “insomnia coffee company 1” active: insomnia coffee company (83%)"/>
+        <value type="string" value="wi-fi network connection “insomnia coffee company 1” active: insomnia coffee company (74%)"/>
+        <value type="string" value="wi-fi network connection “insomnia coffee company 1” active: insomnia coffee company (78%)"/>
+        <value type="string" value="wi-fi network connection “always ready 1” active: always ready (78%)"/>
+        <value type="string" value="wi-fi network connection “always ready 1” active: always ready (81%)"/>
+        <value type="string" value="wi-fi network connection “always ready 1” active: always ready (83%)"/>
+        <value type="string" value="wi-fi network connection “guest” active: guest (44%)"/>
+        <value type="string" value="wi-fi network connection “always ready 1” active: always ready (77%)"/>
+        <value type="string" value="wi-fi network connection “always ready 1” active: always ready (82%)"/>
+        <value type="string" value="wi-fi network connection “always ready 1” active: always ready (76%)"/>
+        <value type="string" value="wi-fi network connection “always ready 1” active: always ready (74%)"/>
+        <value type="string" value="wi-fi network connection “insomnia coffee company 1” active: insomnia coffee company (76%)"/>
+        <value type="string" value="wi-fi network connection “insomnia coffee company 1” active: insomnia coffee company (77%)"/>
+        <value type="string" value="wi-fi network connection “insomnia coffee company 1” active: insomnia coffee company (80%)"/>
+        <value type="string" value="wi-fi network connection “always ready 1” active: always ready (71%)"/>
+        <value type="string" value="wi-fi network connection “guest” active: guest (67%)"/>
+        <value type="string" value="wi-fi network connection “always ready 1” active: always ready (75%)"/>
+        <value type="string" value="wi-fi network connection “always ready 1” active: always ready (62%)"/>
+        <value type="string" value="wi-fi network connection “always ready 1” active: always ready (63%)"/>
+        <value type="string" value="wi-fi network connection “guest” active: guest (63%)"/>
+        <value type="string" value="wi-fi network connection “always ready 1” active: always ready (80%)"/>
+        <value type="string" value="wi-fi network connection “guest” active: guest (57%)"/>
+        <value type="string" value="wi-fi network connection “always ready 1” active: always ready (66%)"/>
+        <value type="string" value="wi-fi network connection “bluefin” active: bluefin (91%)"/>
+        <value type="string" value="wi-fi network connection “always ready 1” active: always ready (67%)"/>
+        <value type="string" value="wi-fi network connection “always ready 1” active: always ready (68%)"/>
+        <value type="string" value="wi-fi network connection “always ready 1” active: always ready (65%)"/>
+        <value type="string" value="wi-fi network connection “always ready 1” active: always ready (73%)"/>
+        <value type="string" value="wi-fi network connection “guest” active: guest (59%)"/>
+        <value type="string" value="wi-fi network connection “guest” active: guest (54%)"/>
+        <value type="string" value="wi-fi network connection “bluefin” active: bluefin (93%)"/>
+        <value type="string" value="wi-fi network connection “xfinitywifi” active: xfinitywifi (38%)"/>
+        <value type="string" value="wi-fi network connection “always ready 1” active: always ready (72%)"/>
+        <value type="string" value="wi-fi network connection “guest” active: guest (60%)"/>
+        <value type="string" value="wi-fi network connection “guest” active: guest (58%)"/>
+        <value type="string" value="wi-fi network connection “always ready 1” active: always ready (70%)"/>
+        <value type="string" value="wi-fi network connection “always ready 1” active: always ready (69%)"/>
+        <value type="string" value="wi-fi network connection “xfinitywifi” active: xfinitywifi (69%)"/>
+        <value type="string" value="wi-fi network connection “guest 1” active: guest (61%)"/>
+        <value type="string" value="wi-fi network connection “flexential-guest 1” active: flexential-guest (74%)"/>
+        <value type="string" value="wi-fi network connection “flexential-guest 1” active: flexential-guest (62%)"/>
+        <value type="string" value="wi-fi network connection “flexential-guest 1” active: flexential-guest (63%)"/>
+        <value type="string" value="wi-fi network connection “always ready” active: always ready (72%)"/>
+        <value type="string" value="wi-fi network connection “flexential-guest 1” active: flexential-guest (78%)"/>
+        <value type="string" value="wi-fi network connection “always ready” active: always ready (70%)"/>
+        <value type="string" value="wi-fi network connection “always ready” active: always ready (71%)"/>
+        <value type="string" value="wi-fi network connection “flexential-guest 1” active: flexential-guest (77%)"/>
+        <value type="string" value="wi-fi network connection “always ready” active: always ready (73%)"/>
+        <value type="string" value="wi-fi network connection “flexential-guest 1” active: flexential-guest (76%)"/>
+        <value type="string" value="wi-fi network connection “always ready” active: always ready (69%)"/>
+        <value type="string" value="wi-fi network connection “always ready” active: always ready (67%)"/>
+        <value type="string" value="wi-fi network connection “flexential-guest 1” active: flexential-guest (75%)"/>
+        <value type="string" value="wi-fi network connection “flexential-guest 1” active: flexential-guest (79%)"/>
+        <value type="string" value="wi-fi network connection “flexential-guest 1” active: flexential-guest (80%)"/>
+        <value type="string" value="wi-fi network connection “always ready” active: always ready (75%)"/>
+        <value type="string" value="wi-fi network connection “bluefin 1” active: bluefin (85%)"/>
+        <value type="string" value="wi-fi network connection “flexential-guest 1” active: flexential-guest (60%)"/>
+        <value type="string" value="wi-fi network connection “always ready” active: always ready (74%)"/>
+        <value type="string" value="wi-fi network connection “always ready” active: always ready (66%)"/>
+        <value type="string" value="wi-fi network connection “bluefin 1” active: bluefin (98%)"/>
+        <value type="string" value="wi-fi network connection “always ready” active: always ready (68%)"/>
+        <value type="string" value="wi-fi network connection “always ready” active: always ready (79%)"/>
+        <value type="string" value="wi-fi network connection “always ready” active: always ready (80%)"/>
+        <value type="string" value="wi-fi network connection “always ready” active: always ready (63%)"/>
+        <value type="string" value="wi-fi network connection “xfinitywifi” active: xfinitywifi (36%)"/>
+        <value type="string" value="wi-fi network connection “flexential-guest” active: flexential-guest (82%)"/>
+        <value type="string" value="wi-fi network connection “xfinitywifi” active: xfinitywifi (37%)"/>
+        <value type="string" value="wi-fi network connection “xfinitywifi” active: xfinitywifi (46%)"/>
+        <value type="string" value="wi-fi network connection “flexential-guest” active: flexential-guest (79%)"/>
+        <value type="string" value="wi-fi network connection “the new frog zone” active: the new frog zone (54%)"/>
+        <value type="string" value="wi-fi network connection “bluefin” active: bluefin (88%)"/>
+        <value type="string" value="wi-fi network connection “flexential-guest” active: flexential-guest (58%)"/>
+        <value type="string" value="wi-fi network connection “flexential-guest” active: flexential-guest (53%)"/>
+        <value type="string" value="wi-fi network connection “bluefin” active: bluefin (100%)"/>
+        <value type="string" value="wi-fi network connection “the new frog zone” active: the new frog zone (53%)"/>
+        <value type="string" value="wi-fi network connection “xfinitywifi” active: xfinitywifi (65%)"/>
+        <value type="string" value="wi-fi network connection “case study ” active: case study  (78%)"/>
+        <value type="string" value="wi-fi network connection “xfinitywifi” active: xfinitywifi (54%)"/>
+        <value type="string" value="wi-fi network connection “the new frog zone” active: the new frog zone (90%)"/>
+        <value type="string" value="wi-fi network connection “flexential-guest” active: flexential-guest (56%)"/>
+        <value type="string" value="wi-fi network connection “guest” active: guest (66%)"/>
+        <value type="string" value="wi-fi network connection “xfinitywifi” active: xfinitywifi (47%)"/>
+        <value type="string" value="wi-fi network connection “flexential-guest” active: flexential-guest (75%)"/>
+        <value type="string" value="wi-fi network connection “flexential-guest” active: flexential-guest (70%)"/>
+        <value type="string" value="wi-fi network connection “flexential-guest” active: flexential-guest (60%)"/>
+        <value type="string" value="wi-fi network connection “flexential-guest” active: flexential-guest (81%)"/>
+        <value type="string" value="wi-fi network connection “xfinitywifi” active: xfinitywifi (48%)"/>
+        <value type="string" value="wi-fi network connection “flexential-guest” active: flexential-guest (68%)"/>
+        <value type="string" value="wi-fi network connection “flexential-guest” active: flexential-guest (78%)"/>
+        <value type="string" value="wi-fi network connection “flexential-guest” active: flexential-guest (67%)"/>
+        <value type="string" value="wi-fi network connection “flexential-guest” active: flexential-guest (66%)"/>
+        <value type="string" value="wi-fi network connection “flexential-guest” active: flexential-guest (77%)"/>
+        <value type="string" value="wi-fi network connection “flexential-guest” active: flexential-guest (74%)"/>
+        <value type="string" value="wi-fi network connection “flexential-guest” active: flexential-guest (71%)"/>
+        <value type="string" value="requesting a wi-fi network address for “xfinitywifi”…"/>
+        <value type="string" value="wi-fi network connection “xfinitywifi” active: xfinitywifi (34%)"/>
+        <value type="string" value="wi-fi network connection “xfinitywifi” active: xfinitywifi (51%)"/>
+        <value type="string" value="wi-fi network connection “xfinitywifi” active: xfinitywifi (58%)"/>
+        <value type="string" value="wi-fi network connection “xfinitywifi” active: xfinitywifi (45%)"/>
+        <value type="string" value="wi-fi network connection “xfinitywifi” active: xfinitywifi (41%)"/>
+        <value type="string" value="wi-fi network connection “starbucks wifi” active: starbucks wifi (77%)"/>
+        <value type="string" value="configuring wi-fi network connection “mr1100”…"/>
+        <value type="string" value="wi-fi network connection “mr1100” active: mr1100 (65%)"/>
+        <value type="string" value="wi-fi network connection “mr1100” active: mr1100 (83%)"/>
+        <value type="string" value="wi-fi network connection “mr1100” active: mr1100 (60%)"/>
+        <value type="string" value="wi-fi network connection “mr1100” active: mr1100 (73%)"/>
+        <value type="string" value="requesting an ethernet network address for “auto ethernet”…"/>
+        <value type="string" value="wi-fi network connection “the new frog zone” active: the new frog zone (83%)"/>
+        <value type="string" value="wi-fi network connection “the new frog zone” active: the new frog zone (52%)"/>
+        <value type="string" value="wi-fi network connection “wifidomus_guest” active: wifidomus_guest (78%)"/>
+        <value type="string" value="wi-fi network connection “amred-guest” active: amred-guest (71%)"/>
+        <value type="string" value="wi-fi network connection “mr1100” active: mr1100 (81%)"/>
+        <value type="string" value="wi-fi network connection “mr1100” active: mr1100 (87%)"/>
+        <value type="string" value="wi-fi network connection “mr1100” active: mr1100 (85%)"/>
+        <value type="string" value="wi-fi network connection “the new frog zone” active: the new frog zone (55%)"/>
+        <value type="string" value="configuring wi-fi network connection “public-1e6”…"/>
+        <value type="string" value="wi-fi network connection “the new frog zone” active: the new frog zone (57%)"/>
+        <value type="string" value="wi-fi network connection “peets” active: peets (67%)"/>
+        <value type="string" value="wi-fi network connection “the new frog zone” active: the new frog zone (56%)"/>
+        <value type="string" value="wi-fi network connection “the new frog zone” active: the new frog zone (58%)"/>
+        <value type="string" value="wi-fi network connection “the new frog zone” active: the new frog zone (74%)"/>
+        <value type="string" value="wi-fi network connection “mr1100” active: mr1100 (58%)"/>
+        <value type="string" value="wi-fi network connection “mr1100” active: mr1100 (57%)"/>
+        <value type="string" value="wi-fi network connection “the new frog zone” active: the new frog zone (69%)"/>
+        <value type="string" value="wi-fi network connection “mr1100” active: mr1100 (78%)"/>
+        <value type="string" value="wi-fi network connection “the new frog zone” active: the new frog zone (67%)"/>
+        <value type="string" value="configuring wi-fi network connection “customer pdxnissan 4”…"/>
+        <value type="string" value="wi-fi network connection “the new frog zone” active: the new frog zone (68%)"/>
+        <value type="string" value="wi-fi network connection “the new frog zone” active: the new frog zone (70%)"/>
+        <value type="string" value="wi-fi network connection “mr1100” active: mr1100 (67%)"/>
+        <value type="string" value="wi-fi network connection “mr1100” active: mr1100 (63%)"/>
+        <value type="string" value="wi-fi network connection “the new frog zone” active: the new frog zone (81%)"/>
+        <value type="string" value="wi-fi network connection “the new frog zone” active: the new frog zone (72%)"/>
+        <value type="string" value="wi-fi network connection “mr1100” active: mr1100 (74%)"/>
+        <value type="string" value="ethernet network connection “wired connection 2” active"/>
+        <value type="string" value="ethernet network connection “wired connection 1” active"/>
+        <value type="string" value="wi-fi network connection “mr1100” active: mr1100 (75%)"/>
+        <value type="string" value="wi-fi network connection “amred-guest” active: amred-guest (62%)"/>
+        <value type="string" value="wi-fi network connection “mr1100” active: mr1100 (69%)"/>
+        <value type="string" value="xfce4-power-manager"/>
+        <value type="string" value="requesting a wi-fi network address for “mr1100”…"/>
+        <value type="string" value="wi-fi network connection “mr1100” active: mr1100 (71%)"/>
+        <value type="string" value="user authentication required for wi-fi network “customer pdxnissan 4”…"/>
+        <value type="string" value="wi-fi network connection “mr1100” active: mr1100 (72%)"/>
+        <value type="string" value="wi-fi network connection “mr1100” active: mr1100 (70%)"/>
+        <value type="string" value="wi-fi network connection “mr1100” active: mr1100 (82%)"/>
+        <value type="string" value="wi-fi network connection “the new frog zone” active: the new frog zone (60%)"/>
+        <value type="string" value="wi-fi network connection “mr1100” active: mr1100 (76%)"/>
+        <value type="string" value="steam"/>
+        <value type="string" value="wi-fi network connection “the new frog zone” active: the new frog zone (75%)"/>
+        <value type="string" value="wi-fi network connection “the new frog zone” active: the new frog zone (59%)"/>
+        <value type="string" value="wi-fi network connection “the new frog zone” active: the new frog zone (63%)"/>
+        <value type="string" value="wi-fi network connection “the new frog zone” active: the new frog zone (62%)"/>
+        <value type="string" value="wi-fi network connection “the new frog zone” active: the new frog zone (61%)"/>
+        <value type="string" value="wi-fi network connection “the new frog zone” active: the new frog zone (66%)"/>
+        <value type="string" value="wi-fi network connection “the new frog zone” active: the new frog zone (91%)"/>
+        <value type="string" value="wi-fi network connection “the new frog zone” active: the new frog zone (89%)"/>
+        <value type="string" value="wi-fi network connection “the new frog zone” active: the new frog zone (80%)"/>
+        <value type="string" value="wi-fi network connection “mr1100” active: mr1100 (68%)"/>
+        <value type="string" value="wi-fi network connection “mr1100” active: mr1100 (77%)"/>
+        <value type="string" value="wi-fi network connection “the new frog zone” active: the new frog zone (73%)"/>
+        <value type="string" value="wi-fi network connection “the new frog zone” active: the new frog zone (65%)"/>
+        <value type="string" value="wi-fi network connection “mr1100” active: mr1100 (80%)"/>
+        <value type="string" value="wi-fi network connection “the new frog zone” active: the new frog zone (71%)"/>
+        <value type="string" value="wi-fi network connection “mr1100” active: mr1100 (66%)"/>
+        <value type="string" value="no network connection"/>
+        <value type="string" value="ethernet network connection “auto ethernet” active"/>
+        <value type="string" value="aetherp2p"/>
+        <value type="string" value="zaap-steam"/>
+        <value type="string" value="nicotine+"/>
+        <value type="string" value="discord"/>
+        <value type="string" value="thunar"/>
+        <value type="string" value="tutanota-desktop"/>
+        <value type="string" value="network configurator"/>
+        <value type="string" value="networkmanager applet"/>
+      </property>
+      <property name="known-items" type="array">
+        <value type="string" value="discord_status_icon_1"/>
+        <value type="string" value="redshift"/>
+        <value type="string" value="tutanota-desktop_status_icon_1"/>
+        <value type="string" value="privateinternetaccess"/>
+        <value type="string" value="blueman"/>
+        <value type="string" value="chrome_status_icon_1"/>
+        <value type="string" value="org.nicotine_plus.Nicotine"/>
+        <value type="string" value="obs"/>
+        <value type="string" value="vlc"/>
+        <value type="string" value="steam"/>
+      </property>
+      <property name="icon-size" type="int" value="0"/>
+      <property name="single-row" type="bool" value="false"/>
+    </property>
+    <property name="plugin-8" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+      <property name="expand" type="bool" value="false"/>
+    </property>
+    <property name="plugin-9" type="string" value="pulseaudio">
+      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
+      <property name="mpris-players" type="string" value="chromium.instance10266;chromium.instance13495;chromium.instance2005;chromium.instance26104;chromium.instance713;chromium.instance8420;firefox.instance10041;firefox.instance10247;firefox.instance10291;firefox.instance10455;firefox.instance10479;firefox.instance10480;firefox.instance10483;firefox.instance10535;firefox.instance10542;firefox.instance10623;firefox.instance10752;firefox.instance10857;firefox.instance10897;firefox.instance10902;firefox.instance10912;firefox.instance10972;firefox.instance10994;firefox.instance11583;firefox.instance11825;firefox.instance11864;firefox.instance11898;firefox.instance12675;firefox.instance12780;firefox.instance12970;firefox.instance13004;firefox.instance13103;firefox.instance13564;firefox.instance13625;firefox.instance13655;firefox.instance13878;firefox.instance13888;firefox.instance13980;firefox.instance14008;firefox.instance14235;firefox.instance14440;firefox.instance14529;firefox.instance14667;firefox.instance14708;firefox.instance14868;firefox.instance14898;firefox.instance15443;firefox.instance15521;firefox.instance15589;firefox.instance15594;firefox.instance15989;firefox.instance16412;firefox.instance16797;firefox.instance16809;firefox.instance17195;firefox.instance17337;firefox.instance18066;firefox.instance1844;firefox.instance20544;firefox.instance20560;firefox.instance20788;firefox.instance21271;firefox.instance21311;firefox.instance21503;firefox.instance21605;firefox.instance21852;firefox.instance21858;firefox.instance22759;firefox.instance23297;firefox.instance23551;firefox.instance24257;firefox.instance24967;firefox.instance25809;firefox.instance25953;firefox.instance27160;firefox.instance27207;firefox.instance27290;firefox.instance27372;firefox.instance27775;firefox.instance2803;firefox.instance28109;firefox.instance29429;firefox.instance29857;firefox.instance3000;firefox.instance31111;firefox.instance31306;firefox.instance31320;firefox.instance31798;firefox.instance3287;firefox.instance3572;firefox.instance3573;firefox.instance3575;firefox.instance3683;firefox.instance3738;firefox.instance3811;firefox.instance4411;firefox.instance4935;firefox.instance5407;firefox.instance5466;firefox.instance5512;firefox.instance5529;firefox.instance5546;firefox.instance5555;firefox.instance5777;firefox.instance5782;firefox.instance5797;firefox.instance5864;firefox.instance5915;firefox.instance5922;firefox.instance5927;firefox.instance5935;firefox.instance6000;firefox.instance6031;firefox.instance6060;firefox.instance6083;firefox.instance6088;firefox.instance6093;firefox.instance6096;firefox.instance6116;firefox.instance6161;firefox.instance6169;firefox.instance6183;firefox.instance6184;firefox.instance6212;firefox.instance6254;firefox.instance6257;firefox.instance6277;firefox.instance6304;firefox.instance6310;firefox.instance6320;firefox.instance6335;firefox.instance6348;firefox.instance6374;firefox.instance6388;firefox.instance6425;firefox.instance6437;firefox.instance6461;firefox.instance6474;firefox.instance6481;firefox.instance6502;firefox.instance6529;firefox.instance6532;firefox.instance6543;firefox.instance6550;firefox.instance6559;firefox.instance6601;firefox.instance6602;firefox.instance6603;firefox.instance6613;firefox.instance6626;firefox.instance6658;firefox.instance6702;firefox.instance6708;firefox.instance6709;firefox.instance6714;firefox.instance6725;firefox.instance6746;firefox.instance6756;firefox.instance6762;firefox.instance6763;firefox.instance6765;firefox.instance6792;firefox.instance6809;firefox.instance6810;firefox.instance6811;firefox.instance6813;firefox.instance6822;firefox.instance6834;firefox.instance6842;firefox.instance6864;firefox.instance6878;firefox.instance6880;firefox.instance6897;firefox.instance6910;firefox.instance6925;firefox.instance6926;firefox.instance6969;firefox.instance6971;firefox.instance6972;firefox.instance6973;firefox.instance6993;firefox.instance6996;firefox.instance7008;firefox.instance7044;firefox.instance7062;firefox.instance7067;firefox.instance7130;firefox.instance7133;firefox.instance7141;firefox.instance7143;firefox.instance7147;firefox.instance7201;firefox.instance7220;firefox.instance7231;firefox.instance7253;firefox.instance7267;firefox.instance7322;firefox.instance7326;firefox.instance7353;firefox.instance7355;firefox.instance740;firefox.instance7481;firefox.instance7512;firefox.instance7574;firefox.instance7589;firefox.instance7598;firefox.instance7636;firefox.instance7662;firefox.instance7685;firefox.instance7705;firefox.instance7731;firefox.instance7752;firefox.instance7774;firefox.instance7778;firefox.instance7781;firefox.instance7873;firefox.instance7876;firefox.instance7916;firefox.instance7929;firefox.instance7946;firefox.instance7992;firefox.instance8009;firefox.instance8040;firefox.instance8058;firefox.instance8063;firefox.instance8152;firefox.instance8154;firefox.instance8173;firefox.instance8211;firefox.instance8222;firefox.instance8243;firefox.instance8266;firefox.instance8326;firefox.instance8330;firefox.instance8333;firefox.instance8350;firefox.instance8482;firefox.instance8620;firefox.instance8686;firefox.instance8835;firefox.instance8891;firefox.instance8973;firefox.instance8975;firefox.instance8977;firefox.instance9077;firefox.instance9172;firefox.instance9173;firefox.instance9216;firefox.instance9340;firefox.instance9404;firefox.instance9507;firefox.instance9516;firefox.instance9522;firefox.instance9851;firefox.instance9903;vlc"/>
+      <property name="known-players" type="string" value="Chrome;firefox;firefox-esr;Mozilla Firefox;vlc;VLC media player"/>
+    </property>
+    <property name="plugin-10" type="string" value="separator">
+      <property name="style" type="uint" value="2"/>
+    </property>
+    <property name="plugin-19" type="string" value="launcher">
       <property name="items" type="array">
-        <value type="string" value="16665593512.desktop"/>
+        <value type="string" value="16428384961.desktop"/>
       </property>
     </property>
     <property name="plugin-20" type="string" value="launcher">
       <property name="items" type="array">
-        <value type="string" value="16665593514.desktop"/>
+        <value type="string" value="16441668241.desktop"/>
       </property>
+      <property name="show-label" type="bool" value="false"/>
+      <property name="arrow-position" type="uint" value="0"/>
     </property>
-    <property name="plugin-21" type="string" value="separator"/>
-    <property name="plugin-7" type="string" value="launcher">
+    <property name="plugin-27" type="string" value="launcher">
       <property name="items" type="array">
-        <value type="string" value="16673367851.desktop"/>
+        <value type="string" value="16536440821.desktop"/>
       </property>
     </property>
-    <property name="plugin-19" type="string" value="separator">
-      <property name="expand" type="bool" value="true"/>
+    <property name="plugin-18" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
-    </property>
-    <property name="plugin-23" type="string" value="separator">
-      <property name="style" type="uint" value="2"/>
+      <property name="expand" type="bool" value="true"/>
     </property>
     <property name="plugin-24" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
     </property>
-    <property name="plugin-26" type="string" value="separator">
-      <property name="style" type="uint" value="0"/>
-      <property name="expand" type="bool" value="true"/>
-    </property>
-    <property name="plugin-27" type="string" value="separator">
-      <property name="expand" type="bool" value="false"/>
-      <property name="style" type="uint" value="0"/>
-    </property>
-    <property name="plugin-28" type="string" value="systemload">
-      <property name="cpu" type="empty">
+    <property name="plugin-25" type="string" value="systemload">
+      <property name="uptime" type="empty">
         <property name="enabled" type="bool" value="true"/>
       </property>
-    </property>
-    <property name="plugin-3" type="string" value="launcher">
-      <property name="items" type="array">
-        <value type="string" value="16698628121.desktop"/>
+      <property name="cpu" type="empty">
+        <property name="enabled" type="bool" value="false"/>
       </property>
     </property>
-    <property name="plugin-9" type="string" value="launcher">
-      <property name="items" type="array">
-        <value type="string" value="16828854791.desktop"/>
+    <property name="plugin-22" type="string" value="cpugraph">
+      <property name="update-interval" type="int" value="1"/>
+      <property name="time-scale" type="int" value="0"/>
+      <property name="size" type="int" value="50"/>
+      <property name="mode" type="int" value="1"/>
+      <property name="color-mode" type="int" value="0"/>
+      <property name="frame" type="int" value="1"/>
+      <property name="border" type="int" value="1"/>
+      <property name="bars" type="int" value="1"/>
+      <property name="per-core" type="int" value="0"/>
+      <property name="tracked-core" type="int" value="0"/>
+      <property name="in-terminal" type="int" value="1"/>
+      <property name="startup-notification" type="int" value="0"/>
+      <property name="load-threshold" type="int" value="0"/>
+      <property name="smt-stats" type="int" value="0"/>
+      <property name="smt-issues" type="int" value="0"/>
+      <property name="per-core-spacing" type="int" value="1"/>
+      <property name="command" type="string" value=""/>
+      <property name="background" type="array">
+        <value type="double" value="1"/>
+        <value type="double" value="1"/>
+        <value type="double" value="1"/>
+        <value type="double" value="0"/>
+      </property>
+      <property name="foreground-1" type="array">
+        <value type="double" value="0"/>
+        <value type="double" value="1"/>
+        <value type="double" value="0"/>
+        <value type="double" value="1"/>
+      </property>
+      <property name="foreground-2" type="array">
+        <value type="double" value="1"/>
+        <value type="double" value="0"/>
+        <value type="double" value="0"/>
+        <value type="double" value="1"/>
+      </property>
+      <property name="foreground-3" type="array">
+        <value type="double" value="0"/>
+        <value type="double" value="0"/>
+        <value type="double" value="1"/>
+        <value type="double" value="1"/>
+      </property>
+      <property name="smt-issues-color" type="array">
+        <value type="double" value="0.90000000000000002"/>
+        <value type="double" value="0"/>
+        <value type="double" value="0"/>
+        <value type="double" value="1"/>
+      </property>
+      <property name="foreground-system" type="array">
+        <value type="double" value="0.90000000000000002"/>
+        <value type="double" value="0.10000000000000001"/>
+        <value type="double" value="0.10000000000000001"/>
+        <value type="double" value="1"/>
+      </property>
+      <property name="foreground-user" type="array">
+        <value type="double" value="0.10000000000000001"/>
+        <value type="double" value="0.40000000000000002"/>
+        <value type="double" value="0.90000000000000002"/>
+        <value type="double" value="1"/>
+      </property>
+      <property name="foreground-nice" type="array">
+        <value type="double" value="0.90000000000000002"/>
+        <value type="double" value="0.80000000000000004"/>
+        <value type="double" value="0.20000000000000001"/>
+        <value type="double" value="1"/>
+      </property>
+      <property name="foreground-iowait" type="array">
+        <value type="double" value="0.20000000000000001"/>
+        <value type="double" value="0.90000000000000002"/>
+        <value type="double" value="0.40000000000000002"/>
+        <value type="double" value="1"/>
       </property>
     </property>
+    <property name="plugin-28" type="string" value="cpufreq"/>
+    <property name="plugin-7" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="16637316311.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-30" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="16677827561.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-31" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="16794301311.desktop"/>
+      </property>
+    </property>
+    <property name="clipman" type="empty">
+      <property name="settings" type="empty">
+        <property name="add-primary-clipboard" type="bool" value="false"/>
+      </property>
+      <property name="tweaks" type="empty">
+        <property name="max-menu-items" type="uint" value="20"/>
+        <property name="never-confirm-history-clear" type="bool" value="true"/>
+      </property>
+    </property>
+    <property name="plugin-32" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="17437030761.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-33" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="17443217471.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-23" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="17688192211.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-29" type="string" value="xfce4-clipman-plugin"/>
   </property>
 </channel>
